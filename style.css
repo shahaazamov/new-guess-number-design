@@ -1,0 +1,96 @@
+body{
+    background:url(./takashi-miyazaki-CeQ_QstqU7M-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-grad {background-image: linear-gradient(to right,blue,red)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+ .inputs{
+     margin-top: 1rem;
+ }
+ .input{
+     padding: 8px 3rem;
+     margin-right: 0px !important;
+ }
+ .check{
+     padding: 8px 1.5rem;
+     margin-left: 0px !important;
+     color: white;
+     background-color: darkblue ;
+     border: none;outline: none;
+ }
+
+.fathersoroq{
+    text-align: center;
+}
+.center-text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.question{
+    display: inline-block;
+    padding: 4rem 5rem;
+    background-color: rgb(228, 10, 10);
+    border-radius: 10px;
+    color:#fff;
+    font-size: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.modal{
+    background-color: rgb(218, 94, 45);
+     border-radius: 15px;
+     width: 50%;
+     top: 50%;
+     left: 50%;
+     margin: auto;
+     padding: 1rem;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     z-index: 3; 
+     text-align: center;
+ }
+ .overlay{
+    position: absolute;
+    backdrop-filter: blur(3px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.close{
+    text-align: right;
+    color: crimson;
+    cursor: pointer;
+    padding:10px;
+}
+.hidden{
+    display: none;
+}

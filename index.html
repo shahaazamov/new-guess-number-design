@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess my number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="father">
+        <div class="header">
+            <button onclick="press()" class="again btn-grad">Refresh</button>
+            <h2>(BETWEEN 1 AND 20)</h2>
+        </div>
+        <h1 class="center-text">Guess My Number</h1>
+        <div class="fathersoroq">
+        <h1 class="question">?</h1></div>
+        <div class="flex">
+            <div class="inputs">
+                <input type="number" class="input"    placeholder="Your Number">
+                <button class="check">Check</button>
+            </div>
+            <div class="text-left">
+                <h3 class="start">Start Guessing...</h3>
+                <h3>Score:<span class="score">20</span></h3>
+                <h3>High Score:<span class="highscore">0</span></h3>
+            </div>
+        </div>
+        <div class="modal hidden">
+            <h1>Siz <span class="changing">0</span>  ta urinishda topdingiz!!</h1>
+            <h3 class="close">Close</h3>
+
+        </div>
+        <div class="overlay hidden">
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
